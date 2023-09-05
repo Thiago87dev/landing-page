@@ -9,13 +9,15 @@
 </head>
 
 <body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label for="close-menu" title="close menu" class="close-menu-label"></label>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
-            <h1>
+            <h1 onclick="getElementById('close-menu').checked = false">
                 <a href="#intro">logo</a>
             </h1>
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked = false">
                     <li><a href="#intro">intro</a></li>
                     <li><a href="#top3">top 3</a></li>
                     <li><a href="#grid-one">grid</a></li>
@@ -28,9 +30,9 @@
         </div>
     </aside>
 
-    <div id="intro" class="menu-spacing"></div>
+    <div  class="menu-spacing"></div>
 
-    <section class="intro section main-bg">
+    <section id="intro" class="intro section main-bg">
         <div class="main-content intro-content">
             <div class="intro-text-content">
                 <h2>January brings us Firefox 85</h2>
@@ -174,7 +176,7 @@
             <p>
                 The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
             </p>
-            
+
             <div class="responsive-table">
                 <table>
                     <caption>Pricing table</caption>
@@ -217,15 +219,17 @@
     <section id="contact" class="intro section main-bg">
         <div class="main-content intro-content">
             <div class="intro-text-content">
-                <h2>Get in Touch</h2>
-                <p>
-                    We're here to help! If you have any questions, comments, or feedback, please don't hesitate to get in touch with us. Just fill out the form below, and we'll get back to you as soon as possible.
-                </p>
-            </div>
-            <div class="intro-img">
-                <img src="assets/img/contact.svg"
-                    alt="Mulher segurando um email e um telefone voando junto com um celular">
-            </div>
+                    <h2>Get in Touch</h2>
+                    <p>
+                        We're here to help! If you have any questions, comments, or feedback, please don't hesitate to
+                        get in touch with us. Just fill out the form below, and we'll get back to you as soon as
+                        possible.
+                    </p>
+                </div>
+                <div class="intro-img">
+                    <img src="assets/img/contact.svg"
+                        alt="Mulher segurando um email e um telefone voando junto com um celular">
+                </div> 
             <div class="contact-form">
                 <fieldset class="form-grid">
                     <legend>Contact Us</legend>
@@ -251,12 +255,15 @@
                 </fieldset>
             </div>
         </div>
-        
+
     </section>
 
     <footer id="footer" class=" footer white-bg">
-        <p><a target="_blank" href="https://github.com/Thiago87dev">Feito com <span class="heart">❤</span> por Thiago Alves</a></p>
+        <p><a target="_blank" href="https://github.com/Thiago87dev">Feito com <span class="heart">❤</span> por Thiago
+                Alves</a></p>
     </footer>
+
+    <a class="back-to-top" href="#">➤</a>
 </body>
 
 </html>
