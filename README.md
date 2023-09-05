@@ -21,8 +21,10 @@ https://tdevlandingpage.netlify.app/
 
 ### Layout Desktop
 
-![desktop](assets/img/landing-page1.png)
 ![desktop](assets/img/landing-page2.png)
+
+
+![desktop](assets/img/landing-page1.png)
 
 ### Layout Mobile
 
