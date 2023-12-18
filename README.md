@@ -1,4 +1,4 @@
-# Lista de Tarefas :rocket:
+# My first landing page :rocket:
 
 > Minha primeira langing page criada através do curso da udemy
 ### Funcionalidades
